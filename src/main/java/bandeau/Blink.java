@@ -1,8 +1,5 @@
 package bandeau;
 
-/**
- * Un effet qui clignote le texte une fois, avec un délai à specifier
- */
 public class Blink extends Effect {
 
     private final int myDelay;
