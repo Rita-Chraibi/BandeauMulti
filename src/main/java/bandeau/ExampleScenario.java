@@ -7,7 +7,7 @@ public class ExampleScenario {
      *
      * @param args les "arguments de ligne de commande", transmis au lancement du programme
      */
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         String message;
         if (args.length > 0) // J'ai au moins un paramètre
         {
@@ -18,9 +18,9 @@ public class ExampleScenario {
 
         ExampleScenario instance = new ExampleScenario();
         instance.exemple(message);
-    }
+    }*/
 
-    public void exemple(String message) {
+    /*public void exemple(String message) {
         // On cree un scenario
         Scenario s = new Scenario();
         // On lui ajoute des effets
@@ -40,6 +40,6 @@ public class ExampleScenario {
         // On joue le scenario sur le bandeau
         s.playOn(b);
         b.close();
-    }
+    }*/
 
 }

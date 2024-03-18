@@ -10,7 +10,6 @@ public abstract class Effect {
      * Le message à afficher pour cet effet (si null, on ne change pas de message)
      */
     protected final String myMessage;
-    String anotherMessage ="";
 
     public Effect(String message) {
         myMessage = message;
